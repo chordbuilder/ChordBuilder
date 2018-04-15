@@ -1,0 +1,39 @@
+.active {
+    background-color: red!important;
+}
+.step {
+    font-size: 12px;
+    margin-left: 5px;
+    font-style: italic;
+}
+.neck table {
+    border-collapse: collapse;
+
+}
+.neck table tr {
+    
+}
+.neck table td {
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;    
+    background-color: #FFF9FD;
+    border: 1px solid grey;
+}
+.neck table th {
+    font-weight: normal;
+    padding: 5px;
+}
+.neck table .string td:first-child {
+    font-weight: bold;
+}
+.neck table .string td:nth-child(13) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#strHighE td:nth-child(13) {
+    border-top: 2px solid black;
+}
+#strLowE td:nth-child(13) {
+    border-bottom: 2px solid black;
+}
